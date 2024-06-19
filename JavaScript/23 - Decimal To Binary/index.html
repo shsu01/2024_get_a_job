@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="assets/Binary icon.png" type="image/x-icon" /> <!-- 수정: "assests"를 "assets"로 변경 -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Decimal To Binary</title>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Decimal To Binary</h2>
+        <div class="input">
+            <h4>Number to Convert:</h4>
+            <input type="number" id="to_convert"> <!-- 수정: input 태그 닫기 '>' 추가 -->
+        </div>
+        <button id="Binary_convert" onclick="convert()"> Convert</button>
+        <div class="input"> <!-- 수정: class="input" 추가 -->
+            <h4 id="into">Result</h4> <!-- 수정: id="into"로 변경 -->
+            <input type="text" id="res" readonly> <!-- 수정: input 태그 닫기 '>' 추가 -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
